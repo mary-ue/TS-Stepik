@@ -15,7 +15,7 @@ interface Admin {
   role: string,
 }
 
-const user1: User = {
+export const user1: User = {
   login: 'michey',
   email: 'some@email.com',
   isOnline: false,

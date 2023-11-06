@@ -1,5 +1,7 @@
 "use strict";
-const user1 = {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.user1 = void 0;
+exports.user1 = {
     login: 'michey',
     email: 'some@email.com',
     isOnline: false,
@@ -19,5 +21,5 @@ const login = (auth) => {
         console.log(`Welcome, ${auth.login}`);
     }
 };
-login(user1);
+login(exports.user1);
 login(admin1);
