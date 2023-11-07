@@ -1,10 +1,10 @@
-interface User {
+export interface User {
   readonly email: string,
   readonly login: string,
   password: string,
 }
 
-interface User {
+export interface User {
   isOnline?: boolean,
 }
 
