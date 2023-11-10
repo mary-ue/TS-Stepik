@@ -26,7 +26,7 @@ function log2(name: string, userId?: string): void {
 
 log2('Mikhail', 'id');
 
-function average(...nums: number[]): number {
+export function average(...nums: number[]): number {
   const sum = nums.reduce((current, total) => current + total, 0);
   return sum / nums.length;
 }
