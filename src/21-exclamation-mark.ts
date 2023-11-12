@@ -7,7 +7,7 @@ if (number > 5) {
 // здесь точно придет тип string
 console.log(word!.toLocaleLowerCase());
 
-function printName(name?: string) {
+export function printName(name?: string) {
   // там точно будет значение
   const fullName: string = name!;
 }
