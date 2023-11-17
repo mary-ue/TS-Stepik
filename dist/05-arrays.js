@@ -5,7 +5,7 @@ const strs = [];
 const strs2 = [];
 strs.push('asv');
 const cars = [];
-cars.push({ brand: 'Audi', wheels: 3 });
+// cars.push({ brand: 'Audi', wheels: 3 });
 // массив внутри другого массива: [ [1, 2, 3], [4, 5, 6] ]
 const arrOfArr = [];
 arrOfArr.push(['', '']);

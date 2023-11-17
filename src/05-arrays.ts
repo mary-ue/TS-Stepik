@@ -10,7 +10,7 @@ interface Car {
   brand: string;
 }
 const cars: Car[] = [];
-cars.push({ brand: 'Audi', wheels: 3 });
+// cars.push({ brand: 'Audi', wheels: 3 });
 
 // массив внутри другого массива: [ [1, 2, 3], [4, 5, 6] ]
 const arrOfArr: string[][] = [];
